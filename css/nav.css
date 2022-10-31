@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 2px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    /* background-color: black; */
+    /* position: fixed; */
+    position: static;
+}
+
+.logo{
+    height: 50px;
+    width: 80px;
+    margin-top: 4px;
+    margin-left: 100%;
+    cursor: pointer;
+    background-color: whitesmoke;
+    position: static;
+}
+
+nav ul li {
+    display: inline-block;;
+    list-style: none;
+    /* margin: auto; */
+    margin: 10px 20px;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    /* color: white; */
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
