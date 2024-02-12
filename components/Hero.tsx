@@ -18,7 +18,7 @@ const Hero = () => {
 					</h1>
 					<TextEffect />
 					<p className='mt-[2rem] text-[20px] text-[#ffffff92]'>
-						A highly motivated B.Tech graduate with a passion for Webvvdfv
+						A highly motivated B.Tech graduate with a passion for Web
 						Development, User Experience, and Product Management. Possesses 5
 						years of freelancing experience, demonstrating strong team spirit,
 						critical thinking, and problem-solving skills. Eager to leverage
