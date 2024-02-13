@@ -1,3 +1,6 @@
+import { BsWhatsapp } from "react-icons/bs"; 
+import { BsFacebook } from "react-icons/bs"; 
+import { BsGithub } from "react-icons/bs"; 
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Particle from "./Particle";
@@ -30,6 +33,13 @@ const Hero = () => {
 							<p>Download Resume</p>
 							<ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
 						</button>
+					</div>
+					{/* Social Links */}
+					<div className="flex mt-[2rem] text-white space-x-6 font-bold text-[40px]">
+						{/* social icons */}
+						<BsGithub />
+						<BsFacebook />
+						<BsWhatsapp />
 					</div>
 				</div>
 				<div className='w-[470px] hidden bg-yellow-500 relative lg:flex items-center rounded-full h-[500px]'>
