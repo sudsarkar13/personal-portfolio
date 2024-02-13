@@ -1,3 +1,4 @@
+import { BsLinkedin } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
@@ -29,7 +30,7 @@ const Hero = () => {
 						and innovative IT organization.
 					</p>
 					<div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
-						<a href='/files/RSCV.pdf'>
+						<a href='/files/RSCV.pdf' target='_blank'>
 							<button className='px-[2rem] bg-yellow-400 hover:bg-[#55e6a5] transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase text-black flex items-center space-x-2 rounded-md'>
 								<p>Download Resume</p>
 								<ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
@@ -39,9 +40,22 @@ const Hero = () => {
 					{/* Social Links */}
 					<div className='flex mt-[2rem] text-white space-x-6 font-bold text-[40px]'>
 						{/* social icons */}
-						<BsGithub />
-						<BsFacebook />
-						<BsWhatsapp />
+						<BsLinkedin />
+						<a href='https://github.com/sudsarkar13/' target='_blank'>
+							<BsGithub />
+						</a>
+						<a
+							href='https://www.facebook.com/sudeepta.sarkar.589'
+							target='_blank'
+						>
+							<BsFacebook />
+						</a>
+						<a
+							href='https://api.whatsapp.com/send/?phone=%2B917504614781'
+							target='_blank'
+						>
+							<BsWhatsapp />
+						</a>
 					</div>
 				</div>
 				<div className='w-[470px] hidden bg-yellow-500  relative lg:flex items-center rounded-full h-[500px]'>
