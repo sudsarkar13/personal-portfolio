@@ -17,7 +17,7 @@ const Hero = () => {
 						HI, I'M <span className='text-yellow-400'>SUDEEPTA!</span>
 					</h1>
 					<TextEffect />
-					<p className='mt-[2rem] text-[18px] text-[#ffffff92]'>
+					<p className='mt-[1.5rem] text-[18px] text-[#ffffff92]'>
 						A highly motivated B.Tech graduate with a passion for Web
 						Development, User Experience, and Product Management. Possesses 5
 						years of freelancing experience, demonstrating strong team spirit,
