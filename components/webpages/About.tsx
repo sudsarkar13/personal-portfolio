@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Image from "next/image";
 import ArrowDownTrayIcon from "@heroicons/react/20/solid/esm/ArrowDownTrayIcon";
 
 const About = () => {
@@ -15,7 +16,7 @@ const About = () => {
 					</h2>
 					<div className='mb-[3rem] flex items-center md:space-x-10'>
 						<span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
-						<div className="flex flex-col">
+						<div className='flex flex-col'>
 							<p className='text-[19px] text-slate-300 w-[80%]'>
 								Bloom where you're planted, roots dig deep, yet reach for the
 								sun.
@@ -33,6 +34,9 @@ const About = () => {
 						<ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
 					</button>
 				</div>
+			</div>
+			<div>
+				<Image src='/images/about.jpg' alt='about' layout='fill' />
 			</div>
 		</div>
 	);
