@@ -38,7 +38,7 @@ const Hero = () => {
 						</a>
 					</div>
 					{/* Social Links */}
-					<div className='flex mt-[2rem] text-white space-x-6 font-bold text-[40px]'>
+					<div className='flex mt-[4rem] text-white space-x-6 font-bold text-[40px]'>
 						{/* social icons */}
 						<a href='https://www.linkedin.com/in/sudeepta-sarkar' target='_blank'>
 							<BsLinkedin />
