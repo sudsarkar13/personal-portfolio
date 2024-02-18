@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import Head from "next/head";
 import About from "@/components/webpages/About";
 
+
 const HomePage = () => {
 	const [nav, setNav] = useState(false);
 	const openNav = () => setNav(true);
@@ -25,6 +26,8 @@ const HomePage = () => {
 				<div className='relative z-[30]'>
 					{/* About */}
 					<About />
+					{/* Services */}
+					<Services />
 				</div>
 			</div>
 		</div>
