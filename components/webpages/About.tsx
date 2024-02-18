@@ -41,6 +41,7 @@ const About = () => {
 						objectFit='contain'
 						className='relative z-[11] w-[100%] h-[100%] object-contain  '
 					/>
+					<div className="w-[100%] h-[100%] absolute z-[10] bg-yellow-400 top-[-2rem] right-[-2rem]  "></div>
 				</div>
 			</div>
 		</div>

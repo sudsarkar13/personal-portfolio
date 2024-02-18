@@ -15,11 +15,6 @@ const HomePage = () => {
 		<div className='overflow-x-hidden'>
 			<Head>
 				<title>Sudeepta's Portfolio</title>
-				{/* <link
-					rel='icon'
-					href='/public/favicon/favicon.ico'
-					type='image/x-icon'
-				/> */}
 			</Head>
 			<div>
 				{/* Navbar */}
