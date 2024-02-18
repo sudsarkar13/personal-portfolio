@@ -40,8 +40,10 @@ const Hero = () => {
 					{/* Social Links */}
 					<div className='flex mt-[2rem] text-white space-x-6 font-bold text-[40px]'>
 						{/* social icons */}
-						<BsLinkedin />
-						<a href='https://github.com/sudsarkar13/' target='_blank'>
+						<a href='https://www.linkedin.com/in/sudeepta-sarkar' target='_blank'>
+							<BsLinkedin />
+						</a>
+						<a href='https://github.com/sudsarkar13' target='_blank'>
 							<BsGithub />
 						</a>
 						<a
