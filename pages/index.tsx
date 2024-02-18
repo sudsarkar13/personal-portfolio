@@ -6,6 +6,9 @@ import Hero from "@/components/Hero";
 import Head from "next/head";
 import About from "@/components/webpages/About";
 import Services from "@/components/webpages/Services";
+import Projects from "@/components/webpages/Projects";
+import Blog from "@/components/webpages/Blog";
+import Contact from "@/components/webpages/Contact";
 
 const HomePage = () => {
 	const [nav, setNav] = useState(false);
@@ -28,6 +31,12 @@ const HomePage = () => {
 					<About />
 					{/* Services */}
 					<Services />
+					{/* Projects */}
+					<Projects />
+					{/* Blog */}
+					<Blog />
+					{/* Contact */}
+					<Contact />
 				</div>
 			</div>
 		</div>
