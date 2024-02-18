@@ -5,7 +5,7 @@ import MobileNav from "@/components/MobileNav";
 import Hero from "@/components/Hero";
 import Head from "next/head";
 import About from "@/components/webpages/About";
-
+import Services from "@/components/webpages/Services";
 
 const HomePage = () => {
 	const [nav, setNav] = useState(false);
