@@ -14,9 +14,11 @@
 	.nav-link-mobile {
 		@apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[22px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
 	}
-	/* Social Link Icons */
-	.social-linkIcon-mobile{
-		@apply md:items-center md:justify-center;
+
+	/* Social Link Icons for Mobile and Tablets */
+	@media (max-width: 1024px) {
+		.social-linkIcon-mobile {
+			@apply items-center justify-center;
+		}
 	}
-	/* Error component styles */
 }
