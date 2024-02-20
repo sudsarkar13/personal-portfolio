@@ -1,8 +1,5 @@
-import { BsLinkedin } from "react-icons/bs";
-import { BsWhatsapp } from "react-icons/bs";
-import { BsFacebook } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
 /* eslint-disable react/no-unescaped-entities */
+import { BsLinkedin, BsWhatsapp, BsFacebook, BsGithub } from "react-icons/bs";
 import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
