@@ -14,11 +14,16 @@
 	.nav-link-mobile {
 		@apply relative mb-[2rem] font-semibold text-white cursor-pointer text-[22px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center;
 	}
-
 	/* Social Link Icons for Mobile and Tablets */
 	@media (max-width: 1024px) {
 		.social-linkIcon-mobile {
 			@apply items-center justify-center;
 		}
+	}
+	.heading {
+		@apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
+	}
+	.services-area {
+		@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white;
 	}
 }
