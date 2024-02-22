@@ -8,6 +8,7 @@ import About from "@/components/webpages/About";
 import Services from "@/components/webpages/Services";
 import Projects from "@/components/webpages/Projects";
 import Contact from "@/components/webpages/Contact";
+import Skills from "@/components/webpages/Skills";
 
 const HomePage = () => {
 	const [nav, setNav] = useState(false);
@@ -30,6 +31,8 @@ const HomePage = () => {
 					<About />
 					{/* Services */}
 					<Services />
+					{/* Skills */}
+					<Skills />
 					{/* Projects */}
 					<Projects />
 					{/* Contact */}
