@@ -30,13 +30,13 @@ const HomePage = () => {
 					{/* About */}
 					<About />
 					{/* Services */}
-					<Services />
+					{/* <Services /> */}
 					{/* Skills */}
-					<Skills />
+					{/* <Skills /> */}
 					{/* Projects */}
-					<Projects />
+					{/* <Projects /> */}
 					{/* Contact */}
-					<Contact />
+					{/* <Contact /> */}
 				</div>
 			</div>
 		</div>
