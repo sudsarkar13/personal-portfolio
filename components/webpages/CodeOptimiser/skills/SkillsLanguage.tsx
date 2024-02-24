@@ -1,6 +1,9 @@
 import React from "react";
 
 interface Props {
+	icon1: JSX.Element;
+	icon2: JSX.Element;
+	icon3: JSX.Element;
 	skill1: string;
 	skill2: string;
 	skill3: string;
@@ -10,6 +13,9 @@ interface Props {
 }
 
 const SkillsLanguage = ({
+	icon1,
+	icon2,
+	icon3,
 	skill1,
 	skill2,
 	skill3,

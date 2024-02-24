@@ -26,7 +26,7 @@ const Services = () => {
 					<div className='bg-yellow-700 hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]'>
 						<RocketLaunchIcon className='w-[6rem] h-[6rem] mx-auto text-white' />
 						<h1 className='text-[20px] md:text-[30px] text-slate-200 mt-[1.5rem] mb-[1.5rem] '>
-							Backend
+							UI/UX
 						</h1>
 						<p className='text-[15px] text-[#d3d2d2] font-normal '>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
@@ -40,7 +40,7 @@ const Services = () => {
 					<div className='bg-green-700 hover:scale-110 transform transition-all duration-300 hover:rotate-6 uppercase font-semibold text-center p-[2rem]'>
 						<CommandLineIcon className='w-[6rem] h-[6rem] mx-auto text-white' />
 						<h1 className='text-[20px] md:text-[30px] text-slate-200 mt-[1.5rem] mb-[1.5rem] '>
-							Fullstack
+							Consultancy
 						</h1>
 						<p className='text-[15px] text-[#d3d2d2] font-normal '>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat

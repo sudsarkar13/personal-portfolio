@@ -1,6 +1,15 @@
 import React from "react";
 import SkillsItem from "./CodeOptimiser/skills/SkillsItem";
 import SkillsLanguage from "./CodeOptimiser/skills/SkillsLanguage";
+// Add additional imports for each skill's icon
+import {
+	SiHtml5,
+	SiCss3,
+	SiJavascript,
+	SiTypescript,
+	SiReact,
+	SiNextdotjs
+} from "react-icons/si";
 
 const Skills = () => {
 	return (
@@ -14,6 +23,9 @@ const Skills = () => {
 					<SkillsItem title='Frontend Developer' year='2022 - Present' />
 					{/* <SkillsLanguage skill-1="HTML" skill-2="CSS" skill-3="Javascript" skill-4="Typescript" skill-5="React" skill-6="NextJS" skill-7="Amazon Web Services" skill-8="UI/UX" /> */}
 					<SkillsLanguage
+						icon1={<SiHtml5 />}
+						icon2={<SiCss3 />}
+						icon3={<SiJavascript />}
 						skill1='HTML'
 						skill2='CSS'
 						skill3='Javascript'
@@ -26,6 +38,9 @@ const Skills = () => {
 					<SkillsItem title='React Developer' year='2022 - 2023' />
 					<SkillsItem title='Next Js Developer' year='2023 - 2024' />
 					<SkillsLanguage
+						icon1={<SiReact />}
+						icon2={<SiNextdotjs />}
+						icon3={<SiTypescript />}	
 						skill1='React Js'
 						skill2='Next Js'
 						skill3='Typescript'
