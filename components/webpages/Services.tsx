@@ -10,7 +10,7 @@ const Services = () => {
 			<div className='services-area'>
 				<div>
 					<div className='bg-red-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem]'>
-						<CodeBracketSquareIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
+						<CodeBracketSquareIcon className='w-[6rem] h-[6rem] mx-auto text-white' />
 						<h1 className='text-[20px] md:text-[30px] text-slate-200 mt-[1.5rem] mb-[1.5rem] '>
 							Frontend
 						</h1>
@@ -24,7 +24,7 @@ const Services = () => {
 				</div>
 				<div>
 					<div className='bg-yellow-700 hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]'>
-						<RocketLaunchIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
+						<RocketLaunchIcon className='w-[6rem] h-[6rem] mx-auto text-white' />
 						<h1 className='text-[20px] md:text-[30px] text-slate-200 mt-[1.5rem] mb-[1.5rem] '>
 							Backend
 						</h1>
@@ -38,7 +38,7 @@ const Services = () => {
 				</div>
 				<div>
 					<div className='bg-green-700 hover:scale-110 transform transition-all duration-300 hover:rotate-6 uppercase font-semibold text-center p-[2rem]'>
-						<CommandLineIcon className='w-[6rem] h-[6rem] mx-auto text-[#d3fae8]' />
+						<CommandLineIcon className='w-[6rem] h-[6rem] mx-auto text-white' />
 						<h1 className='text-[20px] md:text-[30px] text-slate-200 mt-[1.5rem] mb-[1.5rem] '>
 							Fullstack
 						</h1>

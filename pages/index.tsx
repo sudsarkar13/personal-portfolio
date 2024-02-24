@@ -30,9 +30,9 @@ const HomePage = () => {
 					{/* About */}
 					<About />
 					{/* Services */}
-					{/* <Services /> */}
+					<Services />
 					{/* Skills */}
-					{/* <Skills /> */}
+					<Skills />
 					{/* Projects */}
 					{/* <Projects /> */}
 					{/* Contact */}

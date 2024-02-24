@@ -10,22 +10,29 @@ const Skills = () => {
 			</h1>
 			<div className='w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[2rem] items-center'>
 				<div>
-					{/* <SkillsItem title='Web Developer' year='2022 - 2023' /> */}
-					{/* <SkillsItem title='React Developer' year='2023 - 2024' /> */}
+					<SkillsItem title='Web Developer' year='2021 - Present' />
+					<SkillsItem title='Frontend Developer' year='2022 - Present' />
 					{/* <SkillsLanguage skill-1="HTML" skill-2="CSS" skill-3="Javascript" skill-4="Typescript" skill-5="React" skill-6="NextJS" skill-7="Amazon Web Services" skill-8="UI/UX" /> */}
-					{/* <SkillsLanguage
+					<SkillsLanguage
 						skill1='HTML'
 						skill2='CSS'
 						skill3='Javascript'
-						level1='91%'
-						level2='88%'
-						level3='80%'
-					/> */}
+						level1='w-[91%]'
+						level2='w-[88%]'
+						level3='w-[80%]'
+					/>
 				</div>
 				<div>
-					{/* <SkillsItem title='Next Js Developer' year='2024' /> */}
-					<SkillsItem />
-					<SkillsLanguage />
+					<SkillsItem title='React Developer' year='2022 - 2023' />
+					<SkillsItem title='Next Js Developer' year='2023 - 2024' />
+					<SkillsLanguage
+						skill1='React Js'
+						skill2='Next Js'
+						skill3='Typescript'
+						level1='w-[81%]'
+						level2='w-[78%]'
+						level3='w-[60%]'
+					/>
 				</div>
 			</div>
 		</div>
