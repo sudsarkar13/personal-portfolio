@@ -6,9 +6,11 @@ import Hero from "@/components/Hero";
 import Head from "next/head";
 import About from "@/components/webpages/About";
 import Services from "@/components/webpages/Services";
-import Projects from "@/components/webpages/Projects";
-import Contact from "@/components/webpages/Contact";
 import Skills from "@/components/webpages/Skills";
+import Projects from "@/components/webpages/Projects";
+import Testimonial from "@/components/webpages/Testimonial";
+import Blog from '../components/webpages/Blog';
+import Contact from "@/components/webpages/Contact";
 
 const HomePage = () => {
 	const [nav, setNav] = useState(false);
@@ -35,6 +37,10 @@ const HomePage = () => {
 					{/* <Skills /> */}
 					{/* Projects */}
 					{/* <Projects /> */}
+					{/* Reviews/Testimonials */}
+					{/* <Testimonial /> */}
+					{/* Blog */}
+					{/* <Blog /> */}
 					{/* Contact */}
 					{/* <Contact /> */}
 				</div>
