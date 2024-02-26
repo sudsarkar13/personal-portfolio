@@ -1,4 +1,5 @@
 import React from "react";
+import TestimonialSlider from "./CodeOptimiser/testimonial/TestimonialSlider";
 
 const Testimonial = () => {
 	return (
@@ -8,6 +9,7 @@ const Testimonial = () => {
 			</h1>
       <div className="pt-[5rem] pb-[4rem] w-[80%] mx-auto">
         {/* Testimonial Slider */}
+				<TestimonialSlider />
       </div>
 		</div>
 	);
