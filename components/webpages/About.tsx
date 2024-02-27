@@ -1,3 +1,4 @@
+import { FaUbuntu } from "react-icons/fa";
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Image from "next/legacy/image";
@@ -28,6 +29,21 @@ const About = () => {
 						<div className='flex flex-col'>
 							<p className='about-p'>
 								We're here to help you achieve your goals.
+							</p>
+						</div>
+					</div>
+					<div className='mb-[3rem] flex items-center md:space-x-10'>
+						<span className='w-[50px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
+						<div className='flex flex-col'>
+							<p className='about-p'>
+								I also like to contribute on OpenSource projects and create
+								tools for Ubuntu users.
+							</p>
+							<p className='mt-[1rem] flex items-center'>
+								<FaUbuntu className='text-[50px] text-orange-600' />{" "}
+								<span className='ml-[0.5rem] text-white text-[30px] '>
+									Ubuntu
+								</span>
 							</p>
 						</div>
 					</div>
