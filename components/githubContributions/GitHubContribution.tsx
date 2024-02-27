@@ -6,8 +6,8 @@ const GitHubContribution = () => {
 	return (
 		<div>
             <h1 className="heading-small">GitHub <span className="text-yellow-400">Contributions</span></h1>
-			{/* <GitHubCalendar username={"sudsarkar13"} year={currYear} colorScheme={"dark"} /> */}
-			<GitHubCalendar username={"sudsarkar13"} colorScheme={"dark"} />
+			<GitHubCalendar username={"sudsarkar13"} year={currYear} colorScheme={"dark"} />
+			{/* <GitHubCalendar username={"sudsarkar13"} colorScheme={"dark"} /> */}
 		</div>
 	);
 };
