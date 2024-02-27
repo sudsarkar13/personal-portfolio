@@ -23,7 +23,33 @@
 	.heading {
 		@apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
 	}
+	.heading-small {
+		@apply text-center text-white text-[22px] pb-[2rem] sm:text-[25px] md:text-[35px] font-bold capitalize;
+	}
+	/* Services Area */
 	.services-area {
 		@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white;
 	}
+	/* GitHub Contribution */
+	.github-contribution {
+    @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] px-[3rem] w-[50%];
+	}
+
+	@media (min-width: 1025px) {
+  /* Hide GitHub Contribution Mobile on Desktop */
+  	.github-contribution-mobile {
+    	@apply hidden;
+  	}
+	}
+
+	@media (max-width: 1024px) {
+  	/* Hide GitHub Contribution on Mobile */
+    .github-contribution {
+        @apply hidden;
+    	}
+    /* GitHub Contribution Mobile */
+    .github-contribution-mobile {
+        @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] w-[80%];
+    }
+}
 }
