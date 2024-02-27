@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/legacy/image";
 import ArrowDownTrayIcon from "@heroicons/react/20/solid/esm/ArrowDownTrayIcon";
-import GitHubContribution from '../githubContributions/GitHubContribution';
+import GitHubContribution from "../githubContributions/GitHubContribution";
 
 const About = () => {
 	return (
@@ -42,10 +42,13 @@ const About = () => {
 						objectFit='contain'
 						className='relative z-[11] w-[100%] h-[100%] object-contain  '
 					/>
-					<div className="w-[100%] h-[100%] absolute z-[10] bg-yellow-400 top-[-2rem] right-[-2rem]  "></div>
+					<div className='w-[100%] h-[100%] absolute z-[10] bg-yellow-400 top-[-2rem] right-[-2rem]  '></div>
 				</div>
 			</div>
-			<div>
+			<div className='github-contribution'>
+				<GitHubContribution />
+			</div>
+			<div className="github-contribution-mobile">
 				<GitHubContribution />
 			</div>
 		</div>
