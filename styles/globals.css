@@ -55,7 +55,7 @@
 	}
 	/* Blockquote Custom Style */
 	.quote-container {
-		@apply justify-center items-center p-4;
+		@apply justify-center items-center p-3;
 	}
 	.quote-icon-l {
 		@apply text-[25px] text-yellow-400 -ml-8;
