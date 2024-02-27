@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/legacy/image";
 import ArrowDownTrayIcon from "@heroicons/react/20/solid/esm/ArrowDownTrayIcon";
 import GitHubContribution from "../githubContributions/GitHubContribution";
-import Quote from "../extras/Quote/Quote";
+import Quote from "../extras/quote/Quote";
 
 const About = () => {
 	return (
