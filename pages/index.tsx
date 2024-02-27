@@ -11,6 +11,7 @@ import Projects from "@/components/webpages/Projects";
 import Testimonial from "@/components/webpages/Testimonial";
 import Blog from '../components/webpages/Blog';
 import Contact from "@/components/webpages/Contact";
+import Footer from "@/components/Footer";
 
 const HomePage = () => {
 	const [nav, setNav] = useState(false);
@@ -43,6 +44,8 @@ const HomePage = () => {
 					{/* <Blog /> */}
 					{/* Contact */}
 					{/* <Contact /> */}
+					{/* Footer */}
+					<Footer />
 				</div>
 			</div>
 		</div>

@@ -82,4 +82,21 @@
 	.quote {
 		@apply italic text-[18px] text-slate-300 opacity-70 items-center justify-center w-[100%];
 	}
+
+	/* Other Material CSS */
+
+	/* Do not interfere with the code below */
+	/* Footer */
+	.footer {
+		@apply text-center bg-[#0D0C37] text-white font-[400] text-[16px] p-[1rem];
+	}
+	.footer-link {
+		@apply text-white hover:text-yellow-400;
+	}
+	/* Footer for Mobile */
+	@media (max-width: 1024px) {
+		.footer {
+			@apply text-center bg-[#0D0C37] text-white font-[500] text-[12px] p-[1rem];
+		}
+	}
 }
