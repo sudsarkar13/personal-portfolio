@@ -35,7 +35,9 @@
 	.services-area {
 		@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white;
 	}
+
 	/* GitHub Contribution */
+	
 	.github-contribution {
     @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] px-[3rem] w-[50%];
 	}
