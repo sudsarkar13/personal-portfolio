@@ -27,6 +27,10 @@
 	.heading-small {
 		@apply text-center text-white text-[22px] pb-[2rem] sm:text-[25px] md:text-[35px] font-bold capitalize;
 	}
+	/* About Section */
+	.about-p {
+		@apply text-[19px] text-slate-300 w-[80%];
+	}
 	/* Services Area */
 	.services-area {
 		@apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white;

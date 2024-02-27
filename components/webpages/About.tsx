@@ -18,15 +18,7 @@ const About = () => {
 					</h2>
 					<div className='mb-[3rem] flex items-center md:space-x-10'>
 						<div className='flex flex-col'>
-							{/* <div className='items-center justify-start space-x-2'>
-								<FaQuoteLeft className='quote justify-start' />
-								<p className='text-[19px] text-slate-300 w-[80%] opacity-70'>
-									Bloom where you're planted, roots dig deep,
-									yet reach for the sun.
-								</p>
-								<FaQuoteRight className='quote' />
-							</div> */}
-							<div className="quote-container">
+							<div className='quote-container'>
 								<Quote />
 							</div>
 						</div>
@@ -34,7 +26,7 @@ const About = () => {
 					<div className='mb-[3rem] flex items-center md:space-x-10'>
 						<span className='w-[50px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
 						<div className='flex flex-col'>
-							<p className='text-[19px] text-slate-300 w-[80%]'>
+							<p className='about-p'>
 								We're here to help you achieve your goals.
 							</p>
 						</div>
