@@ -1,6 +1,7 @@
 /* Your custom font go here */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+
 /* Basic styles from tailwind css */
 @tailwind base;
 @tailwind components;
@@ -51,5 +52,30 @@
     .github-contribution-mobile {
         @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] w-[80%];
     }
-}
+	}
+	/* Blockquote Custom Style */
+	.quote-container {
+		@apply justify-center items-center p-4;
+	}
+	.quote-icon-l {
+		@apply text-[25px] text-yellow-400 -ml-8;
+	}
+	.quote-icon-r {
+		@apply text-[25px] text-yellow-400 ml-[33rem];
+	}
+	/* For Mobile */
+	@media (max-width: 1024px) {
+		.quote-icon-l {
+			@apply text-[25px] text-yellow-400 -ml-6;
+		}
+		.quote-icon-r {
+			@apply text-[25px] text-yellow-400 ml-[18.2rem];
+		}
+		.quote {
+			@apply italic text-[18px] text-slate-300 text-center opacity-70 items-center justify-center w-[100%];
+		}
+	}
+	.quote {
+		@apply italic text-[18px] text-slate-300 opacity-70 items-center justify-center w-[100%];
+	}
 }

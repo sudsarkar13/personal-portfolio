@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/legacy/image";
 import ArrowDownTrayIcon from "@heroicons/react/20/solid/esm/ArrowDownTrayIcon";
 import GitHubContribution from "../githubContributions/GitHubContribution";
+import Quote from "../extras/Quote/Quote";
 
 const About = () => {
 	return (
@@ -16,12 +17,23 @@ const About = () => {
 						Shaping <span className='text-yellow-400'>Ideas</span>
 					</h2>
 					<div className='mb-[3rem] flex items-center md:space-x-10'>
-						<span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
 						<div className='flex flex-col'>
-							<p className='text-[19px] text-slate-300 w-[80%]'>
-								Bloom where you're planted, roots dig deep, yet reach for the
-								sun.
-							</p>
+							{/* <div className='items-center justify-start space-x-2'>
+								<FaQuoteLeft className='quote justify-start' />
+								<p className='text-[19px] text-slate-300 w-[80%] opacity-70'>
+									Bloom where you're planted, roots dig deep,
+									yet reach for the sun.
+								</p>
+								<FaQuoteRight className='quote' />
+							</div> */}
+							<div className="quote-container">
+								<Quote />
+							</div>
+						</div>
+					</div>
+					<div className='mb-[3rem] flex items-center md:space-x-10'>
+						<span className='w-[50px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
+						<div className='flex flex-col'>
 							<p className='text-[19px] text-slate-300 w-[80%]'>
 								We're here to help you achieve your goals.
 							</p>
@@ -48,7 +60,7 @@ const About = () => {
 			<div className='github-contribution'>
 				<GitHubContribution />
 			</div>
-			<div className="github-contribution-mobile">
+			<div className='github-contribution-mobile'>
 				<GitHubContribution />
 			</div>
 		</div>
