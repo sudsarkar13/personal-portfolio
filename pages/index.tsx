@@ -37,7 +37,7 @@ const HomePage = () => {
 					{/* Skills */}
 					{/* <Skills /> */}
 					{/* Projects */}
-					{/* <Projects /> */}
+					<Projects />
 					{/* Reviews/Testimonials */}
 					{/* <Testimonial /> */}
 					{/* Blog */}

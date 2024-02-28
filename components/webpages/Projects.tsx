@@ -1,6 +1,13 @@
 import React from "react";
 import Image from "next/legacy/image";
-import { Project1, Project2, Project3, Project4 } from "../projects";
+import {
+	Project1,
+	Project2,
+	Project3,
+	Project4,
+	Project5,
+	Project6,
+} from "../projects";
 
 const Projects = () => {
 	return (
@@ -12,55 +19,20 @@ const Projects = () => {
 				<div>
 					<Project1 />
 				</div>
-				<div>
-					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-						<Image
-							src='/images/p2.jpg'
-							alt='p1'
-							layout='fill'
-							className='object-contain'
-						/>
-					</div>
+				<div className='hidden'>
+					<Project2 />
 				</div>
-				<div>
-					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-						<Image
-							src='/images/p3.jpg'
-							alt='p1'
-							layout='fill'
-							className='object-contain'
-						/>
-					</div>
+				<div className='hidden'>
+					<Project3 />
 				</div>
-				<div>
-					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-						<Image
-							src='/images/p4.jpg'
-							alt='p1'
-							layout='fill'
-							className='object-contain'
-						/>
-					</div>
+				<div className='hidden'>
+					<Project4 />
 				</div>
-				<div>
-					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-						<Image
-							src='/images/p5.jpg'
-							alt='p1'
-							layout='fill'
-							className='object-contain'
-						/>
-					</div>
+				<div className='hidden'>
+					<Project5 />
 				</div>
-				<div>
-					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-						<Image
-							src='/images/p2.jpg'
-							alt='p1'
-							layout='fill'
-							className='object-contain'
-						/>
-					</div>
+				<div className='hidden'>
+					<Project6 />
 				</div>
 			</div>
 		</div>
