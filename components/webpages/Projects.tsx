@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/legacy/image";
+import { Project1, Project2, Project3, Project4 } from "../projects";
 
 const Projects = () => {
 	return (
@@ -9,14 +10,7 @@ const Projects = () => {
 			</h1>
 			<div className='w-[80%] pt-[2rem] pb-[6rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] '>
 				<div>
-					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
-						<Image
-							src='/images/p1.jpg'
-							alt='p1'
-							layout='fill'
-							className='object-contain'
-						/>
-					</div>
+					<Project1 />
 				</div>
 				<div>
 					<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
