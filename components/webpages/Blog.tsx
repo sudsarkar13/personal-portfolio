@@ -18,6 +18,7 @@ const Blog = () => {
 							className='object-cover'
 						/>
 					</div>
+					<div className="w-[90%] text-center mx-auto bg-yellow-400 relative p-[2rem] mt-[-1rem] border-2 border-black rounded-[10px] "></div>
 				</div>
 				<div></div>
 				<div></div>

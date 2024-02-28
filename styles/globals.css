@@ -82,9 +82,16 @@
 		}
 	}
 	.quote {
-		@apply italic text-[18px] text-slate-300 opacity-70 items-center justify-center w-[100%];
+		@apply italic text-[18px] text-slate-300 opacity-90 items-center justify-center w-[100%];
 	}
-
+	.quote-author {
+		@apply text-yellow-400 text-[18px] font-semibold;
+	}
+	@media (max-width: 1024px) {
+		.quote-author {
+			@apply text-yellow-400 text-[16px] font-semibold  italic ml-[9rem];
+		}
+	}
 	/* Other Material CSS */
 
 	/* Do not interfere with the code below */

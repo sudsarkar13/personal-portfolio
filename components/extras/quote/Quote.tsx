@@ -10,6 +10,7 @@ const Quote = () => {
 				Bloom where you're planted, roots dig deep, yet reach for the sun.
 			</p>
 			<FaQuoteRight className='quote-icon-r' />
+			<cite className='quote-author'>- Sudeepta Sarkar</cite>
 		</div>
 	);
 };
