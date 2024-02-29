@@ -40,7 +40,7 @@ const About = () => {
 								tools for Ubuntu users.
 							</p>
 							<p className='mt-[1rem] flex items-center'>
-								<FaUbuntu className='text-[50px] text-orange-600' />{" "}
+								<FaUbuntu className='text-[50px] text-orange-500' />{" "}
 								<span className='ml-[0.5rem] text-white text-[30px] '>
 									Ubuntu
 								</span>
