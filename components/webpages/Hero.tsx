@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import { BsLinkedin, BsWhatsapp, BsFacebook, BsGithub } from "react-icons/bs";
 import React from "react";
-import Particle from "./Particle";
-import TextEffect from "./TextEffect";
+import Particle from "../Particle";
+import TextEffect from "../TextEffect";
 import Image from "next/legacy/image";
 import ArrowDownTrayIcon from "@heroicons/react/20/solid/esm/ArrowDownTrayIcon";
 // import Error404 from "./errors/Error404";

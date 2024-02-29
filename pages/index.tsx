@@ -1,17 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useState } from "react";
-import Nav from "@/components/Nav";
-import MobileNav from "@/components/MobileNav";
-import Hero from "@/components/Hero";
 import Head from "next/head";
-import About from "@/components/webpages/About";
-import Services from "@/components/webpages/Services";
-import Skills from "@/components/webpages/Skills";
-import Projects from "@/components/webpages/Projects";
-import Testimonial from "@/components/webpages/Testimonial";
-import Blog from '../components/webpages/Blog';
-import Contact from "@/components/webpages/Contact";
-import Footer from "@/components/Footer";
+import {
+	Hero,
+	About,
+	Services,
+	Skills,
+	Projects,
+	Testimonial,
+	Blog,
+	Contact,
+} from "@/components/webpages";
+import { Nav, MobileNav, Footer } from "@/components";
 
 const HomePage = () => {
 	const [nav, setNav] = useState(false);

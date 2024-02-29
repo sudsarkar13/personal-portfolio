@@ -1,6 +1,6 @@
 import React from "react";
-import SkillsItem from "../extras/CodeOptimiser/skills/SkillsItem";
-import SkillsLanguage from "../extras/CodeOptimiser/skills/SkillsLanguage";
+import SkillsItem from "./CodeOptimiser/skills/SkillsItem";
+import SkillsLanguage from "./CodeOptimiser/skills/SkillsLanguage";
 // Add additional imports for each skill's icon
 import {
 	SiHtml5,

@@ -1,5 +1,5 @@
 import React from "react";
-import TestimonialSlider from "../extras/CodeOptimiser/testimonial/TestimonialSlider";
+import TestimonialSlider from "./CodeOptimiser/testimonial/TestimonialSlider";
 
 const Testimonial = () => {
 	return (
