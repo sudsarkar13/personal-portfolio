@@ -56,13 +56,13 @@ const About = () => {
 				</div>
 				<div className='lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
 					<Image
-						src='/images/about.jpg'
+						src='/images/Sudeepta1.png'
 						alt='user'
 						layout='fill'
 						objectFit='contain'
 						className='relative z-[11] w-[100%] h-[100%] object-contain  '
 					/>
-					<div className='w-[100%] h-[100%] absolute z-[10] bg-yellow-400 top-[-2rem] right-[-2rem]  '></div>
+					{/* <div className='w-[100%] h-[100%] absolute z-[10] bg-yellow-400 top-[-2rem] right-[-2rem]'></div> */}
 				</div>
 			</div>
 			<div className='github-contribution'>
