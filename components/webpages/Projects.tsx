@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/legacy/image";
 import {
 	Project1,
 	Project2,
@@ -16,22 +15,22 @@ const Projects = () => {
 				Pro<span className='text-yellow-400'>jects</span>
 			</h1>
 			<div className='w-[80%] pt-[2rem] pb-[6rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] '>
-				<div>
+				<div data-aos="fade-up">
 					<Project1 />
 				</div>
-				<div className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="300" className='hidden'>
 					<Project2 />
 				</div>
-				<div className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="600" className='hidden'>
 					<Project3 />
 				</div>
-				<div className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="900" className='hidden'>
 					<Project4 />
 				</div>
-				<div className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="1200" className='hidden'>
 					<Project5 />
 				</div>
-				<div className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="1600" className='hidden'>
 					<Project6 />
 				</div>
 			</div>
