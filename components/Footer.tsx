@@ -43,8 +43,21 @@ const Footer = () => {
 					<div>
 						<h1 className='footer-address'>Email me @</h1>
 						<p className='footer-address-p'>
-							sudeeptasarkarbiz@gmail.com <br />
-							sudsarkar13@gmail.com
+							<a
+								href='https://mail.google.com/mail/?view=cm&fs=1&to=sudeeptasarkarbiz@gmail.com'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								sudeeptasarkarbiz@gmail.com
+							</a>{" "}
+							<br />
+							<a
+								href='https://mail.google.com/mail/?view=cm&fs=1&to=sudsarkar13@gmail.com'
+								target='_blank'
+								rel='noopener noreferrer'
+							>
+								sudsarkar13@gmail.com
+							</a>
 						</p>
 					</div>
 				</div>
@@ -57,9 +70,7 @@ const Footer = () => {
 					{/* <p className='footer-txt-p'>Terms & Conditions</p> */}
 					{/* <p className='footer-txt-p'>Privacy Policy</p> */}
 					<p className='footer-txt-p'>
-						<Link href={"/sitemap.xml"}>
-							Sitemap
-						</Link>
+						<Link href={"/sitemap.xml"}>Sitemap</Link>
 					</p>
 				</div>
 			</div>
