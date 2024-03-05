@@ -25,7 +25,8 @@ const Nav = ({ openNav }: Props) => {
 					<Link href='#projects'>Projects</Link>
 				</div>
 				<div className='nav-link uppercase'>
-					<Link href={"/Service"} as={"Services"}>
+					{/* Currently disabled to enable, put "/" before "Service" in (href={"#Service"}) */}
+					<Link href={"#Service"} as={"Services"}> 
 						Services
 					</Link>
 				</div>
