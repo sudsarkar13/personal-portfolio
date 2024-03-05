@@ -36,7 +36,9 @@ const Nav = ({ openNav }: Props) => {
 						Blog
 					</Link>
 				</div>
-				<div className='nav-link uppercase'>Contact</div>
+				<div className='nav-link uppercase'>
+					<Link href={"#contact"}>Contact</Link>
+				</div>
 				<div onClick={openNav}>
 					<Bars3Icon className='w-[2rem] md:hidden h-[2rem]w cursor-pointer text-white font-extrabold' />
 				</div>

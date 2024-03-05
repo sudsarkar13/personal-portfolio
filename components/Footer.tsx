@@ -1,9 +1,10 @@
+import React from "react";
+import Link from "next/link";
 import {
 	DevicePhoneMobileIcon,
 	EnvelopeIcon,
 	MapIcon,
 } from "@heroicons/react/20/solid";
-import React from "react";
 
 const curryear = new Date().getFullYear();
 
@@ -52,10 +53,14 @@ const Footer = () => {
 				<div className='footer-txt'>
 					<p>Copyright © {curryear}, Sudeepta Sarkar, All rights reserved.</p>
 				</div>
-				<div className='footer-5 hidden'>
-					<p className='footer-txt-p'>Terms & Conditions</p>
-					<p className='footer-txt-p'>Privacy Policy</p>
-					<p className='footer-txt-p'>Sitemap</p>
+				<div className='footer-5'>
+					{/* <p className='footer-txt-p'>Terms & Conditions</p> */}
+					{/* <p className='footer-txt-p'>Privacy Policy</p> */}
+					<p className='footer-txt-p'>
+						<Link href={"/Sitemap.xml"}>
+							Sitemap
+						</Link>
+					</p>
 				</div>
 			</div>
 		</div>

@@ -128,7 +128,7 @@ html {
 		@apply text-[16px] mb-[2rem] md:mb-0 text-white opacity-20;
 	}
 	.footer-5 {
-		@apply flex items-center space-x-10;
+		@apply flex items-center relative space-x-10 ml-[43rem];
 	}
 	.footer-txt-p {
 		@apply text-[16px] text-white opacity-20 ;
@@ -140,6 +140,9 @@ html {
 		}
 		.footer-txt-p {
 			@apply text-[12px] text-white opacity-20 cursor-pointer ;
+		}
+		.footer-5 {
+			@apply flex items-center space-x-10 ml-0 justify-center;
 		}
 	}
 
