@@ -32,9 +32,9 @@ const Skills = () => {
 						icon1={<SiHtml5 />}
 						icon2={<SiCss3 />}
 						icon3={<SiJavascript />}
-						icon4={""}
-						icon5={""}
-						icon6={""}
+						icon4={null}
+						icon5={null}
+						icon6={null}
 						skill1='HTML'
 						skill2='CSS'
 						skill3='Javascript'
@@ -55,9 +55,9 @@ const Skills = () => {
 						Description='Next.js is a popular React framework that provides server-side rendering, static site generation, and other features to enhance the performance and SEO of web applications. Next.js developers use its routing system, API routes, and data fetching methods to create fast and efficient web applications. They often work with a wide range of technologies including React, Node.js, and various databases to build full-stack applications.'
 					/>
 					<SkillsLanguage
-						icon1={""}
-						icon2={""}
-						icon3={""}
+						icon1={null}
+						icon2={null}
+						icon3={null}
 						icon4={<SiReact />}
 						icon5={<SiNextdotjs />}
 						icon6={<SiTypescript />}
