@@ -1,14 +1,13 @@
 /* Your custom font go here */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-
 /* Basic styles from tailwind css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 @layer components {
@@ -41,27 +40,27 @@ html {
 	}
 
 	/* GitHub Contribution */
-	
+
 	.github-contribution {
-    @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] px-[3rem] w-[50%];
+		@apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] px-[3rem] w-[50%];
 	}
 
 	@media (min-width: 1025px) {
-  /* Hide GitHub Contribution Mobile on Desktop */
-  	.github-contribution-mobile {
-    	@apply hidden;
-  	}
+		/* Hide GitHub Contribution Mobile on Desktop */
+		.github-contribution-mobile {
+			@apply hidden;
+		}
 	}
 
 	@media (max-width: 1024px) {
-  	/* Hide GitHub Contribution on Mobile */
-    .github-contribution {
-        @apply hidden;
-    	}
-    /* GitHub Contribution Mobile */
-    .github-contribution-mobile {
-        @apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] w-[80%];
-    }
+		/* Hide GitHub Contribution on Mobile */
+		.github-contribution {
+			@apply hidden;
+		}
+		/* GitHub Contribution Mobile */
+		.github-contribution-mobile {
+			@apply mx-auto items-center mt-[2rem] text-white justify-center pt-[1rem] w-[80%];
+		}
 	}
 	/* Blockquote Custom Style */
 	.quote-container {
@@ -98,10 +97,29 @@ html {
 	}
 	/* Other Material CSS */
 
+	/* Skills */
+	.skillsIcon {
+		@apply flex items-center ml-4 space-x-2 text-[60px];
+	}
+	.skillsItem {
+		@apply mb-[8rem];
+	}
+	.skillsYear {
+		@apply px-[2rem] text-[#55e6a5] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#55e6a5];
+	}
+	@media (max-width: 1024px) {
+		.skillsIcon {
+			@apply flex items-center ml-0 justify-center space-x-2 text-[60px];
+		}
+		.skillsItem {
+			@apply mb-[4rem];
+		}
+	}
+
 	/* Do not interfere with the code below */
 	/* Footer */
 	.footer {
-		@apply pt-[8rem] pb-[4rem] bg-[#02050a]  ;
+		@apply pt-[8rem] pb-[4rem] bg-[#02050a];
 	}
 	.footer-1 {
 		@apply grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto gap-[3rem];
@@ -116,10 +134,10 @@ html {
 		@apply md:w-[3.5rem] md:h-[3.5rem] w-[1.5rem] h-[1.5rem] text-white;
 	}
 	.footer-address {
-		@apply text-white text-[25px] mb-[0.2rem] font-semibold  ;
+		@apply text-white text-[25px] mb-[0.2rem] font-semibold;
 	}
 	.footer-address-p {
-		@apply text-[17px] w-[90%] text-white opacity-60 ;
+		@apply text-[17px] w-[90%] text-white opacity-60;
 	}
 	.footer-4 {
 		@apply w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between;
@@ -131,7 +149,7 @@ html {
 		@apply flex items-center relative space-x-10 ml-[43rem];
 	}
 	.footer-txt-p {
-		@apply text-[16px] text-white opacity-20 ;
+		@apply text-[16px] text-white opacity-20;
 	}
 	/* Footer for Mobile */
 	@media (max-width: 1024px) {
@@ -139,7 +157,7 @@ html {
 			@apply text-[12px] mb-[2rem] md:mb-0 text-white opacity-20;
 		}
 		.footer-txt-p {
-			@apply text-[12px] text-white opacity-20 cursor-pointer ;
+			@apply text-[12px] text-white opacity-20 cursor-pointer;
 		}
 		.footer-5 {
 			@apply flex items-center space-x-10 ml-0 justify-center;

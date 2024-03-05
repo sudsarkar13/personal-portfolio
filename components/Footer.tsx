@@ -57,7 +57,7 @@ const Footer = () => {
 					{/* <p className='footer-txt-p'>Terms & Conditions</p> */}
 					{/* <p className='footer-txt-p'>Privacy Policy</p> */}
 					<p className='footer-txt-p'>
-						<Link href={"/Sitemap.xml"}>
+						<Link href={"/sitemap.xml"}>
 							Sitemap
 						</Link>
 					</p>

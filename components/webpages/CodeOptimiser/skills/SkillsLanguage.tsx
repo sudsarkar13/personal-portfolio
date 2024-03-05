@@ -4,6 +4,9 @@ interface Props {
 	icon1: JSX.Element;
 	icon2: JSX.Element;
 	icon3: JSX.Element;
+	icon4: JSX.Element;
+	icon5: JSX.Element;
+	icon6: JSX.Element;
 	skill1: string;
 	skill2: string;
 	skill3: string;
@@ -16,6 +19,9 @@ const SkillsLanguage = ({
 	icon1,
 	icon2,
 	icon3,
+	icon4,
+	icon5,
+	icon6,
 	skill1,
 	skill2,
 	skill3,
@@ -48,6 +54,16 @@ const SkillsLanguage = ({
 				<span
 					className={`${level3} bottom-0 h-[6px] absolute bg-[#55e6a5]`}
 				></span>
+			</div>
+			<div className='relative mb-[3rem]'>
+				<div className='skillsIcon'>
+					<div className="flex flex-col text-orange-600">{icon1}</div>
+					<div className="flex flex-col text-blue-800">{icon4}</div>
+					<div className="flex flex-col text-blue-600">{icon2}</div>
+					<div className="flex flex-col text-white">{icon5}</div>
+					<div className="flex flex-col text-yellow-400">{icon3}</div>
+					<div className="flex flex-col text-blue-500">{icon6}</div>
+				</div>
 			</div>
 		</div>
 	);

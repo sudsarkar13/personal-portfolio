@@ -17,7 +17,7 @@ const Services = () => {
 			<Nav openNav={openNav} />
 			<ServiceSection />
 			<Skills />
-			<Testimonial />
+			{/* <Testimonial /> */}
 			<Footer />
 		</div>
 	);
