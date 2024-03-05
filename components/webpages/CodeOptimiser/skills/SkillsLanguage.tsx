@@ -1,12 +1,12 @@
 import React from "react";
 
 interface Props {
-	icon1: JSX.Element;
-	icon2: JSX.Element;
-	icon3: JSX.Element;
-	icon4: JSX.Element;
-	icon5: JSX.Element;
-	icon6: JSX.Element;
+	icon1?: JSX.Element;
+	icon2?: JSX.Element;
+	icon3?: JSX.Element;
+	icon4?: JSX.Element;
+	icon5?: JSX.Element;
+	icon6?: JSX.Element;
 	skill1: string;
 	skill2: string;
 	skill3: string;
