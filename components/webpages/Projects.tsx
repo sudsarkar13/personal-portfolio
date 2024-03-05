@@ -10,7 +10,7 @@ import {
 
 const Projects = () => {
 	return (
-		<div className='bg-[#060c14] pt-[4rem] md:pt-[8rem] pb-[1rem]'>
+		<div id="projects" className='bg-[#060c14] pt-[4rem] md:pt-[8rem] pb-[1rem]'>
 			<h1 className='heading'>
 				Pro<span className='text-yellow-400'>jects</span>
 			</h1>

@@ -4,11 +4,8 @@ import Head from "next/head";
 import {
 	Hero,
 	About,
-	Services,
-	Skills,
 	Projects,
 	Testimonial,
-	Blog,
 	Contact,
 } from "@/components/webpages";
 import { Nav, MobileNav, Footer } from "@/components";
@@ -60,16 +57,10 @@ const HomePage = () => {
 				<div className='relative z-[30]'>
 					{/* About */}
 					<About />
-					{/* Services */}
-					{/* <Services /> */}
-					{/* Skills */}
-					{/* <Skills /> */}
 					{/* Projects */}
 					<Projects />
 					{/* Reviews/Testimonials */}
 					{/* <Testimonial /> */}
-					{/* Blog */}
-					{/* <Blog /> */}
 					{/* Contact */}
 					{/* <Contact /> */}
 					{/* Footer */}

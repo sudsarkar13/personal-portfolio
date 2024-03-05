@@ -1,7 +1,7 @@
 import React from "react";
 import { Blog1, Blog2, Blog3 } from "../blog";
 
-const Blog = () => {
+const Blogs = () => {
 	return (
 		<div className='pt-[4rem] md:pt-[8rem] pb-[4rem] bg-[#091019]'>
 			<h1 className='heading'>
@@ -17,4 +17,4 @@ const Blog = () => {
 	);
 };
 
-export default Blog;
+export default Blogs;
