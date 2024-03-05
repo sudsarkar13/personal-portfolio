@@ -31,8 +31,13 @@ const Footer = () => {
 					<div>
 						<h1 className='footer-address'>Phone</h1>
 						<p className='footer-address-p'>
-							+91<span className='p-[2px]'></span>7504614781 <br />
-							+91<span className='p-[2px]'></span>7809518625
+							<a href='tel:+917805518625'>
+								+91<span className='p-[2px]'></span>7504614781
+							</a>{" "}
+							<br />
+							<a href='tel:+917805518625'>
+								+91<span className='p-[2px]'></span>7809518625
+							</a>
 						</p>
 					</div>
 				</div>
