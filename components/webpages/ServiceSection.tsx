@@ -1,7 +1,7 @@
 import { CodeBracketSquareIcon, CommandLineIcon, RocketLaunchIcon } from "@heroicons/react/20/solid";
 import React from "react";
 
-const Services = () => {
+const ServiceSection = () => {
 	return (
 		<div className='bg-[#0c121c] pt-[4rem] md:pt-[8rem] pb-[5rem]'>
 			<p className='heading'>
@@ -55,4 +55,4 @@ const Services = () => {
 	);
 };
 
-export default Services;
+export default ServiceSection;

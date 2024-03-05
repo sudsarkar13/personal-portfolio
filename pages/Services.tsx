@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import { Nav, MobileNav, Footer } from "@/components";
-import { Services, Skills, Testimonial } from "@/components/webpages";
+import { ServiceSection, Skills, Testimonial } from "@/components/webpages";
 
-const Service = () => {
+const Services = () => {
 	const [nav, setNav] = useState(false);
 	const openNav = () => setNav(true);
 	const closeNav = () => setNav(false);
@@ -15,7 +15,7 @@ const Service = () => {
 			</Head>
 			<MobileNav nav={nav} closeNav={closeNav} />
 			<Nav openNav={openNav} />
-			<Services />
+			<ServiceSection />
 			<Skills />
 			<Testimonial />
 			<Footer />
@@ -23,4 +23,4 @@ const Service = () => {
 	);
 };
 
-export default Service;
+export default Services;
