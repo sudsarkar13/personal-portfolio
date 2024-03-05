@@ -5,7 +5,6 @@ import {
 	Hero,
 	About,
 	Projects,
-	Testimonial,
 	Contact,
 } from "@/components/webpages";
 import { Nav, MobileNav, Footer } from "@/components";
@@ -59,8 +58,6 @@ const HomePage = () => {
 					<About />
 					{/* Projects */}
 					<Projects />
-					{/* Reviews/Testimonials */}
-					{/* <Testimonial /> */}
 					{/* Contact */}
 					{/* <Contact /> */}
 					{/* Footer */}

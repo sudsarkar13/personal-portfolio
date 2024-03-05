@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import { Nav, MobileNav, Footer } from "@/components";
-import { Services, Skills } from "@/components/webpages";
+import { Services, Skills, Testimonial } from "@/components/webpages";
 
 const Service = () => {
 	const [nav, setNav] = useState(false);
@@ -17,6 +17,7 @@ const Service = () => {
 			<Nav openNav={openNav} />
 			<Services />
 			<Skills />
+			<Testimonial />
 			<Footer />
 		</div>
 	);
