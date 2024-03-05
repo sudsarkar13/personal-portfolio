@@ -26,12 +26,17 @@ const MobileNav = ({ nav, closeNav }: Props) => {
 					<Link href='#projects'>Projects</Link>
 				</div>
 				{/* Currently disabled to enable, put "/" before "Service" in (href={"#Service"}) */}
-				<div className='nav-link-mobile uppercase'><Link href={"qw Service"} as={"Services"}>
+				<div className='nav-link-mobile uppercase'>
+					{/* <Link href={"/Service"} as={"Services"}>
 						Services
-					</Link></div>
-				<div className='nav-link-mobile uppercase'><Link href={"/blog"} as={"Blog"}>
+					</Link> */}
+					Services
+				</div>
+				<div className='nav-link-mobile uppercase'>
+					<Link href={"/blog"} as={"Blog"}>
 						Blog
-					</Link></div>
+					</Link>
+				</div>
 				<div className='nav-link-mobile uppercase'>Contact</div>
 			</div>
 			<div
