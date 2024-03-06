@@ -18,7 +18,7 @@ const Projects = () => {
 				<div data-aos="fade-up">
 					<Project1 />
 				</div>
-				<div data-aos="fade-up" data-aos-delay="300" className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="300">
 					<Project2 />
 				</div>
 				<div data-aos="fade-up" data-aos-delay="600" className='hidden'>
