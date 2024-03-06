@@ -45,7 +45,7 @@ const Footer = () => {
 					<div className='footer-3'>
 						<EnvelopeIcon className='footer-icon' />
 					</div>
-					<div>
+					{/* <div>
 						<h1 className='footer-address'>Email me @</h1>
 						<p className='footer-address-p'>
 							<a
@@ -61,6 +61,18 @@ const Footer = () => {
 								target='_blank'
 								rel='noopener noreferrer'
 							>
+								sudsarkar13@gmail.com
+							</a>
+						</p>
+					</div> */}
+					<div>
+						<h1 className='footer-address'>Email me @</h1>
+						<p className='footer-address-p'>
+							<a href='mailto:sudeeptasarkarbiz@gmail.com'>
+								sudeeptasarkarbiz@gmail.com
+							</a>
+							<br />
+							<a href='mailto:sudsarkar13@gmail.com'>
 								sudsarkar13@gmail.com
 							</a>
 						</p>
