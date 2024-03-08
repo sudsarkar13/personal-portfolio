@@ -10,9 +10,9 @@ sitemap({
 	ignoredPaths: ["favicon", "index", "404", "500"],
 	extraPaths: [
 		"/",
-		"/about",
-		"/skills",
-		"/projects",
+		"/#about",
+		"/#skills",
+		"/#projects",
 		"/blogs",
 		"/contact",
 		"/files/RSCV.pdf",
