@@ -7,62 +7,152 @@
       xmlns:xhtml="http://www.w3.org/1999/xhtml">
       
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/About</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/Footer</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Blogs</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/MobileNav</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/skills/SkillsItem</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/Nav</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/skills/SkillsLanguage</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/Particle</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/testimonial/ClientReview</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/TextEffect</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/testimonial/TestimonialSlider</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/blog/Blog1</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Contact</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/blog/Blog2</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Hero</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/blog/Blog3</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Projects</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/errors/Error503</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/ServiceSection</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/extras/Sample</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Skills</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/extras/quote/Quote</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Testimonial</loc>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/githubContributions/GitHubContribution</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/projects/Project1</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/projects/Project2</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/projects/Project3</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/projects/Project4</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/projects/Project5</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/projects/Project6</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/About</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/Blogs</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/CodeOptimiser/skills/SkillsItem</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/CodeOptimiser/skills/SkillsLanguage</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/CodeOptimiser/testimonial/ClientReview</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/CodeOptimiser/testimonial/TestimonialSlider</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/Contact</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/Hero</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/Projects</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/ServiceSection</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/Skills</loc>
+		<lastmod>2024-03-09</lastmod>
+	</url>
+
+	<url>
+		<loc>https://portfolio-sudeeptasarkar.vercel.app/webpages/Testimonial</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 
