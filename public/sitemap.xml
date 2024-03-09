@@ -7,66 +7,6 @@
       xmlns:xhtml="http://www.w3.org/1999/xhtml">
       
 	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/About</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Blogs</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/skills/SkillsItem</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/skills/SkillsLanguage</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/testimonial/ClientReview</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/CodeOptimiser/testimonial/TestimonialSlider</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Contact</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Hero</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Projects</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/ServiceSection</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Skills</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/Testimonial</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
 		<loc>https://portfolio-sudeeptasarkar.vercel.app/</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
@@ -83,16 +23,6 @@
 
 	<url>
 		<loc>https://portfolio-sudeeptasarkar.vercel.app/#projects</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/blogs</loc>
-		<lastmod>2024-03-09</lastmod>
-	</url>
-
-	<url>
-		<loc>https://portfolio-sudeeptasarkar.vercel.app/contact</loc>
 		<lastmod>2024-03-09</lastmod>
 	</url>
 

@@ -7,14 +7,14 @@ sitemap({
 	pagesDirectory: path.join(__dirname, "../components/webpages"),
 	targetDirectory: path.join(__dirname, "../public"),
 	ignoredExtensions: ["js", "map", "json", "xml", "png", "jpg", "jpeg", "svg"],
-	ignoredPaths: ["favicon", "index", "404", "500"],
+	ignoredPaths: ["favicon", "index", "404", "500", "Skills", "CodeOptimiser", "About", "Blogs", "Contact", "Hero", "Projects", "ServiceSection", "Testimonial"],
 	extraPaths: [
 		"/",
 		"/#about",
 		"/#skills",
 		"/#projects",
-		"/blogs",
-		"/contact",
+		// "/blogs",
+		// "/contact",
 		"/files/RSCV.pdf",
 	],
 });
@@ -301,7 +301,7 @@ function createSitemapStylesheet() {
   
   </xsl:stylesheet>`;
 
-  const xslPath = path.join(__dirname, "../public/sitemap-stylesheet.xsl");
+	const xslPath = path.join(__dirname, "../public/sitemap-stylesheet.xsl");
 
 	fs.writeFile(xslPath, xslContent, function (err) {
 		if (err) {
