@@ -146,7 +146,8 @@ html {
 		@apply text-[16px] mb-[2rem] md:mb-0 text-white opacity-20;
 	}
 	.footer-5 {
-		@apply flex items-center relative space-x-10 ml-[43rem];
+		/* removing ml-[35rem] */
+		@apply flex items-center relative space-x-10;
 	}
 	.footer-txt-p {
 		@apply text-[16px] text-white opacity-20;
