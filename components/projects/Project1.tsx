@@ -9,7 +9,7 @@ const Project1 = () => {
 				<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
 					<Image
 						src='https://raw.githubusercontent.com/sudsarkar13/Lenovo-dark-grub-4k-ubuntu/main/images/desg-1.png'
-						alt='p1'
+						alt='...'
 						layout='fill'
 						className='object-contain'
 					/>

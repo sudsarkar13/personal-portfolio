@@ -7,8 +7,8 @@ const Project3 = () => {
 		<div>
 			<div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]'>
 				<Image
-					src='/images/p3.jpg'
-					alt='p1'
+					src='/images/p3.png'
+					alt='...'
 					layout='fill'
 					className='object-contain'
 				/>
