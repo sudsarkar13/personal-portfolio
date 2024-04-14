@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-script-component-in-head */
 import "@/styles/globals.css";
 import { AppProps } from "next/app";
 import Head from "next/head";
@@ -23,6 +24,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 	return (
 		<>
 			<Head>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-0YKKJ9K54P" />
 				<script
 					dangerouslySetInnerHTML={{
 						__html: `
@@ -36,12 +38,16 @@ const App = ({ Component, pageProps }: AppProps) => {
             `,
 					}}
 				/>
+        <Script id="google-analytics">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${gtag.GA_TRACKING_ID}');
+          `}
+        </Script>
 			</Head>
 			{/* Global Site Tag (gtag.js) - Google Analytics */}
-			<Script
-				strategy='afterInteractive'
-				src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-			/>
 			<Analytics />
 			<Component {...pageProps} />
 		</>
