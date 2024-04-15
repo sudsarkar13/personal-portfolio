@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import Script from "next/script";
 import { useEffect } from "react";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import * as gtag from "@/lib/gtag"; // Make sure this path is correct based on your project structure
 
 const App = ({ Component, pageProps }: AppProps) => {
@@ -49,6 +50,7 @@ const App = ({ Component, pageProps }: AppProps) => {
 			</Head>
 			{/* Global Site Tag (gtag.js) - Google Analytics */}
 			<Analytics />
+			<SpeedInsights />
 			<Component {...pageProps} />
 		</>
 	);
