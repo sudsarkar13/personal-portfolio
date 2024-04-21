@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-head-element */
 import { Html, Head, Main, NextScript } from "next/document";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import Adsense from "@/components/Google/Adsense";
