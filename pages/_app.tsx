@@ -14,6 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
+				<meta name="google-adsense-account" content={GAD_ID} />
 				<Adsense pubId={GAD_ID} />
 			</Head>
 			<Analytics />
