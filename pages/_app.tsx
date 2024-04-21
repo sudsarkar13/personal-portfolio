@@ -1,6 +1,6 @@
-/* eslint-disable @next/next/no-head-element */
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Adsense from "@/components/Google/Adsense";
@@ -13,9 +13,9 @@ export const GAD_ID: string =
 export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
-			<head>
+			<Head>
 				<Adsense pubId={GAD_ID} />
-			</head>
+			</Head>
 			<Analytics />
 			<SpeedInsights />
 			<Component {...pageProps} />
