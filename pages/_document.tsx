@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-head-element */
 import { Html, Head, Main, NextScript } from "next/document";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import Adsense from "@/components/Google/Adsense";
@@ -9,9 +10,10 @@ export const GAD_ID: string = process.env.NEXT_PUBLIC_GADS_ID || "default-value"
 export default function Document() {
 	return (
 		<Html lang='en'>
-			<Head>
+			<Head />
+			<head>
 				<Adsense pubId={GAD_ID} />
-			</Head>
+			</head>
 			<body>
 				<Main />
 				<NextScript />
