@@ -5,15 +5,15 @@ import Adsense from "@/components/Google/Adsense";
 
 export const GTM_ID: string = process.env.NEXT_PUBLIC_GTM_ID || "default-value";
 export const GA_ID: string = process.env.NEXT_PUBLIC_GA_ID || "default-value";
-export const GAD_ID: string = process.env.NEXT_PUBLIC_GADS_ID || "default-value";
+export const GAD_ID: string =
+	process.env.NEXT_PUBLIC_GADS_ID || "default-value";
 
 export default function Document() {
 	return (
 		<Html lang='en'>
-			<Head />
-			<head>
+			<Head>
 				<Adsense pubId={GAD_ID} />
-			</head>
+			</Head>
 			<body>
 				<Main />
 				<NextScript />
