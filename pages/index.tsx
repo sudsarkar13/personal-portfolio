@@ -1,12 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import {
-	Hero,
-	About,
-	Projects,
-	Contact,
-} from "@/components/webpages";
+import { Hero, About, Projects, Contact } from "@/components/webpages";
 import { Nav, MobileNav, Footer } from "@/components";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -46,6 +41,11 @@ const HomePage = () => {
 		<div className='overflow-x-hidden'>
 			<Head>
 				<title>Sudeepta's Portfolio</title>
+				<script
+					async
+					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9301461712290016'
+					crossOrigin='anonymous'
+				></script>
 			</Head>
 			<div>
 				{/* Navbar */}
