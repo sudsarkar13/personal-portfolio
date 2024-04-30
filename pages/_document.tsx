@@ -30,7 +30,8 @@ export default function Document() {
 				<NextScript />
 				<GoogleTagManager gtmId={GTM_ID} />
 				<GoogleAnalytics gaId={GA_ID} />
-				<AdBanner dataAdSlot="1" dataAdFormat="auto" dataFullWidthResponsive={true} />
+				{/* <AdBanner dataAdSlot="1" dataAdFormat="auto" dataFullWidthResponsive={true} /> */}
+				<AdBanner adCode={GAD_ID} />
 				<amp-ad
 					width='100vw'
 					height='320'
