@@ -1,6 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 import Adsense from "@/components/Google/Adsense";
+import Script from "next/script";
+import AdBanner from '../components/Google/AdBanner';
 
 export const GTM_ID: string = process.env.NEXT_PUBLIC_GTM_ID || "default-value";
 export const GA_ID: string = process.env.NEXT_PUBLIC_GA_ID || "default-value";
@@ -17,17 +19,18 @@ export default function Document() {
 					custom-element='amp-ad'
 					src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'
 				></script>
-				<script
+				<Script
 					async
 					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9301461712290016'
 					crossOrigin='anonymous'
-				></script>
+				></Script>
 			</Head>
 			<body>
 				<Main />
 				<NextScript />
 				<GoogleTagManager gtmId={GTM_ID} />
 				<GoogleAnalytics gaId={GA_ID} />
+				<AdBanner dataAdSlot="1" dataAdFormat="auto" dataFullWidthResponsive={true} />
 				<amp-ad
 					width='100vw'
 					height='320'
