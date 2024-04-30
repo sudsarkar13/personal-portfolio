@@ -12,12 +12,28 @@ export default function Document() {
 		<Html lang='en'>
 			<Head>
 				<Adsense pubId={GAD_ID} />
+				<script
+					async
+					custom-element='amp-ad'
+					src='https://cdn.ampproject.org/v0/amp-ad-0.1.js'
+				></script>
 			</Head>
 			<body>
 				<Main />
 				<NextScript />
 				<GoogleTagManager gtmId={GTM_ID} />
 				<GoogleAnalytics gaId={GA_ID} />
+				<amp-ad
+					width='100vw'
+					height='320'
+					type='adsense'
+					data-ad-client='ca-pub-9301461712290016'
+					data-ad-slot='3782882970'
+					data-auto-format='rspv'
+					data-full-width=''
+				>
+					<div style={{ overflow: "auto" }}></div>
+				</amp-ad>
 			</body>
 		</Html>
 	);
