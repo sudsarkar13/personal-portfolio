@@ -47,7 +47,7 @@ const About = () => {
 							</p>
 						</div>
 					</div>
-					<a href='/files/RSCV.pdf' target='_blank'>
+					<a href='/files/Resume.pdf' target='_blank'>
 						<button className='px-[2rem] bg-yellow-400 hover:bg-[#55e6a5] transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase text-black flex items-center space-x-2 rounded-md'>
 							<p>Download Resume</p>
 							<ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black' />
