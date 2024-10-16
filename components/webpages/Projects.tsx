@@ -24,7 +24,7 @@ const Projects = () => {
 				<div data-aos="fade-up" data-aos-delay="600">
 					<Project3 />
 				</div>
-				<div data-aos="fade-up" data-aos-delay="900" className='hidden'>
+				<div data-aos="fade-up" data-aos-delay="900">
 					<Project4 />
 				</div>
 				<div data-aos="fade-up" data-aos-delay="1200" className='hidden'>
