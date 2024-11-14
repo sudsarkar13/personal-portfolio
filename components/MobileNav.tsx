@@ -32,11 +32,11 @@ const MobileNav = ({ nav, closeNav }: Props) => {
 					</Link>
 					{/* Services */}
 				</div>
-				<div className='nav-link-mobile uppercase'>
+				{/* <div className='nav-link-mobile uppercase'>
 					<Link href={"/blog"} as={"Blog"}>
 						Blog
 					</Link>
-				</div>
+				</div> */}
 				<div className='nav-link-mobile uppercase'>Contact</div>
 			</div>
 			<div

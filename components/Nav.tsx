@@ -31,11 +31,11 @@ const Nav = ({ openNav }: Props) => {
 					</Link>
 					{/* Services */}
 				</div>
-				<div className='nav-link uppercase'>
+				{/* <div className='nav-link uppercase'>
 					<Link href={"/blog"} as={"Blog"}>
 						Blog
 					</Link>
-				</div>
+				</div> */}
 				<div className='nav-link uppercase'>
 					<Link href={"#contact"}>Contact</Link>
 				</div>
