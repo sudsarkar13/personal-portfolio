@@ -38,14 +38,16 @@ const HomePage = () => {
 	}, []);
 
 	return (
-		<div className='overflow-x-hidden'>
+		<div className="overflow-x-hidden">
 			<Head>
 				<title>Sudeepta's Portfolio</title>
+				<meta
+					name="google-adsense-account"
+					content="ca-pub-9301461712290016"></meta>
 				<script
 					async
-					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9301461712290016'
-					crossOrigin='anonymous'
-				></script>
+					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9301461712290016"
+					crossOrigin="anonymous"></script>
 			</Head>
 			<div>
 				{/* Navbar */}
@@ -53,7 +55,7 @@ const HomePage = () => {
 				<Nav openNav={openNav} />
 				{/* Hero Section */}
 				<Hero />
-				<div className='relative z-[30]'>
+				<div className="relative z-[30]">
 					{/* About */}
 					<About />
 					{/* Projects */}
